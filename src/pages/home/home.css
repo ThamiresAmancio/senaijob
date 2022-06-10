@@ -1,0 +1,129 @@
+.container{
+    width: 1650px;
+    margin:  0 auto;
+    background-color: #e6e3e3;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.titulo-vaga{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vaga{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.vaga p {
+    color: black;
+    font-weight: bold;
+    font-weight: 1.3rem;
+    margin-left: 10px;
+}
+
+.informacoes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 30px;
+}
+
+.informacoes-items h4{
+    font-weight: bold;
+    font-weight: 1.3rem;
+    margin-bottom: -9px;
+}
+
+.infomacoes-pre-requisitos > p {
+    background-color: red;
+    padding: 15px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.informacoes-vagas-disponiveis{
+    width: 1450px ;
+    border: 2px solid #6b6767;
+    margin:  0 auto;
+    border-radius: 8px;
+}
+
+.titulo-candidatos h1{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.titulo-candidatos span{
+    color: #36b558;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.informacoes-novos-candidatos{
+    margin: 35px;
+}
+.informacoes-novos-candidatos h3{
+    color: #155c28;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.informacoes-novos-candidatos p{
+    font-size: 1.2rem;
+}
+.painel-vagas {
+    margin: 35px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.painel-vagas > h3{
+    font-weight: bold;
+    font-size: 1.3rem;
+    grid-column: span 4;
+    margin: 0;
+}
+
+.painel{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow:  2px 2px 2px 2px rgba(0.4, 0.4, 0.4, 0.6);
+    padding: 10px;
+    margin: 10px;
+}
+
+.titulo-painel{
+    text-transform: uppercase;
+}
+
+.detalhes{
+    width: 110px;
+    height: 35px;
+    margin: 10px;
+    color: red;
+    font-weight: bold;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+
+.contratei{
+    width: 110px;
+    height: 35px;
+    margin: 10px;
+    color: green;
+    font-weight: bold;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+

@@ -1,0 +1,60 @@
+.menu{
+    max-width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background: #6b6767;
+}
+
+.menu_hamburguer > li{
+    list-style: none;
+    width: 20px;
+    height: 4px;
+    border-radius: 5px;
+    margin-top: 3px;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.menu p {
+    font-size: 1rem;
+    color: #fff;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu_display_none{
+    background-color: red ;
+    width: 250px;
+    height: 1000px;
+    z-index: 2;
+    position: relative;
+    right: 0;
+    left: -850px;
+    top: 50px;
+}
+
+.logo{
+    width: 150px;
+    height: auto;
+    margin: 0 50px;
+}
+
+.titulo_logo{
+    font-size: 1rem;
+    margin-left: 180px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.menu_display_none li{
+    list-style: none;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+
+.modal{
+    width: 350px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.dados img{
+    width: 50px;
+    height: 50px;
+}
